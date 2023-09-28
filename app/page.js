@@ -1,9 +1,7 @@
-import Image from "next/image";
+"use client";
+
+import MainLayout from "./layouts/MainLayout";
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Ebay Clone</h1>
-    </div>
-  );
+  return <MainLayout>Cool</MainLayout>;
 }
