@@ -3,5 +3,9 @@
 import MainLayout from "./layouts/MainLayout";
 
 export default function Home() {
-  return <MainLayout>Cool</MainLayout>;
+  return (
+    <div>
+      <MainLayout>Cool</MainLayout>
+    </div>
+  );
 }
